@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* ============================== */
+/*            Template            */
+/* ============================== */
+/* ========== Body ========== */
+body, #subfooter {
+	background-color: #222;
+}
+
+/* ========== Header ========== */
+header {
+	background-color: #EEE;
+	background-image: url("/images/patterns/dotted.png");
+}
+
+header nav {
+	text-shadow: 1px 1px 0px #000;
+}
+header nav a {
+	color: #FFF;
+}
+header nav a:hover {
+	color: #EDA;
+	text-decoration: none;
+}
+
+header nav .main {
+	background-color: #B78500;
+	/*background-image: url("/images/patterns/diagonal.png");*/
+}
+header nav .games {
+	background-color: #000;
+	background-image: url("/images/patterns/jigsaw.png");
+}
+
+#header-gallery {
+	color: #DDD;
+	text-shadow: 1px 1px 1px #999;
+	background-color: #333;
+	background-image: url("/images/patterns/hex.png");
+}
+
+.bubble {
+	background-color: rgba(192, 64, 255, 0.3);
+	border-color: rgba(192, 64, 255, 1);
+}
+
+.bubble b {
+	color: #FDB;
+}
+
+.bubble:after {
+	border-color: transparent rgba(192, 64, 255, 1);
+}
+
+
+/* ========== Main ========== */
+#main {
+	color: #DDD;
+	text-shadow: 1px 1px 1px #999;
+	background-color: #333;
+	background-image: url("/images/patterns/hex.png");
+}
+#main a {
+	color: #666;
+}
+#main a:hover {
+	color: #999;
+}
+
+/* ========== Footer ========== */
+footer {
+	background-color: #A77500;
+	/*background-image: url("/images/patterns/diagonal.png");*/
+	color: #FEB;
+	text-shadow: 1px 1px 0px #410;
+}
+footer a {
+	color: #FFF;
+}
+footer a:hover {
+	color: #EDA;
+}
+#subfooter {
+	color: #666;
+}
+#subfooter a, #subfooter a:hover {
+	color: #666;
+}
+
+
+/* ============================== */
+/*             Common             */
+/* ============================== */
+
+/* ========== Boxes ========== */
+.box-dark {
+	background-color: rgba(0,0,0,0.25);
+}
+.addon-item .box-light {
+	background-color: rgba(128,128,128,0.05);
+}
+.box-blue {
+	background-color: rgba(64,64,255,0.2);
+}
+
+/* ========== Dividers ========== */
+.divider-vertical, .divider-horizontal {
+	background-color: #222;
+}
+.divider-vertical-light, .divider-horizontal-light {
+	background-color: #FFF;
+}
+.divider-horizontal-large {
+	background-image: url("/images/divider.png");
+}
+
+/* ========== Forms ========== */
+input, textarea, select {
+	background-color: rgba(255,255,255,0.5);
+	border-style: solid;
+	border-color: rgba(0,0,0,0.5);
+}
+input:disabled, textarea:disabled, select:disabled, label.disabled, .form-arrow.disabled, .form-arrow-required.disabled {
+	/*background-color: rgba(128,128,128,0.5);
+	border-color: rgba(128,128,128,0.5);*/
+	opacity: 0;
+}
+.form-cell-map {
+	border-left-color: rgba(0,0,0,0.5);
+	border-left-style: solid;
+}
+
+.form-arrow {
+	background: none;
+	background-size: contain !important;
+}
+.form-arrow-required {
+	background: url("/images/form/required.png");
+	background-size: contain !important;
+}
+.form-arrow.valid, .form-arrow-required.valid {
+	background: url("/images/form/valid.png");
+}
+.form-arrow.invalid, .form-arrow-required.invalid {
+	background: url("/images/form/invalid.png");
+}
+
+/* ========== Borders ========== */
+.border, .border-no-top, .border-no-bottom, .addon-item {
+	border-color: rgba(64,32,0,0.1);
+}
+
+/* ========== Selection ========== */
+.selectedOLD {
+	background-color: rgba(255,192,0,0.2);
+	border-color: rgba(255,192,0,0.5);
+}
+.includedOLD {
+	background-color: rgba(0,255,0,0.2);
+	border-color: rgba(0,255,0,0.5);
+}
+
+/* ========== Link Button ========== */
+.button {
+	color: #FFF;
+	background-color: #B78500;
+	background-image: url("/images/patterns/diagonal.png");
+	text-shadow: 1px 1px 0px #000;
+}
+.button:hover {
+	background-color: #E0AC20;
+}
+.button:active {
+	background-color: #A06C00;
+}
+.button.disabled {
+	color: #CCC;
+	background-color: #888 !important;
+}
+
+/* ========== Gallery ========== */
+.gallery {
+	border-color: rgba(255, 255, 255, 0.75);
+	border-style: solid;
+}

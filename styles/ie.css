@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* ============================== */
+/*            Template            */
+/* ============================== */
+
+/* ========== Body ========== */
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	height: auto;
+	background-color: #222 !important;
+}
+#subfooter {
+	background-color: #222 !important;
+}
+
+/* ========== Header ========== */
+#header {
+	position: relative;
+	width: 100%;
+	min-height: 128px;
+	text-align: left;
+	vertical-align: middle;
+	z-index: 3;
+	
+	background-color: #EEE;
+	background-image: url("/images/patterns/dotted.png") !important;
+}
+#header .wrapper {
+	padding: 16px 16px;
+}
+
+#header nav {
+	position: relative;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 4px;
+	text-align: center;
+	
+	background-color: #C08C00;
+	background-image: url("/images/patterns/diagonal.png");
+	text-shadow: 1px 1px 0px #000;
+}
+#header nav a {
+	margin: 8px 0;
+	padding: 0px 12px;
+	display: inline-block;
+	
+	color: #FFF;
+}
+#header nav a:hover {
+	color: #EDA;
+	text-decoration: none;
+}
+
+#header-gallery {
+	position: relative;
+	width: 100%;
+	min-height: 32px;
+	padding: 32px 0;
+	z-index: 0;
+	
+	color: #DDD;
+	text-shadow: 1px 1px 1px #999;
+	background-color: #333;
+	background-image: url("/images/patterns/hex.png");
+}
+
+
+/* ========== Main ========== */
+#main {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	
+	background-color: #EEE;
+	background-image: url("/images/patterns/dotted.png");
+}
+#main .wrapper {
+	padding: 32px 0;
+}
+#main a {
+	color: #666;
+}
+#main a:hover {
+	color: #999;
+}
+
+/* ========== Footer ========== */
+#footer {
+	position: relative;
+	bottom: 0px;
+	min-height: 80px;
+	width: 100%;
+	z-index: 2;
+	
+	background-color: #C08C00;
+	background-image: url("/images/patterns/diagonal.png");
+	color: #FEB;
+}
+#footer a {
+	color: #FFF;
+}
+#footer a:hover {
+	color: #EDA;
+}
+#footer .wrapper {
+	padding: 8px 0;
+}
+#footer nav {
+	display: inline;
+}
+
+#subfooter {
+	min-height: 24px;
+	width: 100%;
+	
+	color: #666;
+}
+#subfooter .wrapper {
+	padding: 8px 0;
+}
+#subfooter p {
+	display: inline !important;
+}
+#subfooter a, #subfooter a:hover {
+	color: #666;
+}
+
+
+/* ============================== */
+/*             Common             */
+/* ============================== */
+
+/* ========== Boxes ========== */
+.box-dark {
+	background-color: #999;
+}
+.box-light, .addon-item {
+	background-color: #DDD;
+}
+
+/* ========== Dividers ========== */
+.divider-vertical, .divider-horizontal {
+	background-color: #222;
+}
+.divider-vertical-light, .divider-horizontal-light {
+	background-color: #FFF;
+}
+
+/* ========== Forms ========== */
+input, textarea, select {
+	background-color: 999;
+	border-style: solid;
+	border-color: #666;
+}
+input:disabled, textarea:disabled, select:disabled, label.disabled, .form-arrow.disabled, .form-arrow-required.disabled {
+	/*background-color: rgba(128,128,128,0.5);
+	border-color: rgba(128,128,128,0.5);*/
+	opacity: 0;
+}
+.form-cell-map {
+	border-left-color: #666;
+	border-left-style: solid;
+}
+
+.form-arrow {
+	background: none;
+	background-size: contain !important;
+}
+.form-arrow-required {
+	background: url("/images/form/required.png");
+	background-size: contain !important;
+}
+.form-arrow.valid, .form-arrow-required.valid {
+	background: url("/images/form/valid.png");
+}
+.form-arrow.invalid, .form-arrow-required.invalid {
+	background: url("/images/form/invalid.png");
+}
+
+/* ========== Borders ========== */
+.border, .border-no-top, .border-no-bottom, .addon-item {
+	border-color: #960;
+}
+
+/* ========== Selection ========== */
+.selected {
+	background-color: #F92;
+	border-color: #961;
+}
+.included {
+	background-color: #4F4;
+	border-color: #292;
+}
+
+/* ========== Link Button ========== */
+.button {
+	color: #FFF;
+	background-color: #C08C00;
+	text-shadow: 1px 1px 0px #000;
+}
+.button:hover {
+	background-color: #E0AC20;
+}
+.button:active {
+	background-color: #A06C00;
+}
+.button.disabled {
+	color: #CCC;
+	background-color: #888 !important;
+}
+
+/* ========== Gallery ========== */
+.gallery {
+	border-color: #CCC;
+	border-style: solid;
+}
